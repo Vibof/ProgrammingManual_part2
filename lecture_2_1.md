@@ -8,18 +8,29 @@
 
 Пусть задана последовательность объектов некторого типа:
 
-$$a_1, a_2, ..., a_n,\ где\ a_k \in \Omega - некоторое\ множество\ (определяющее\ тип\ последовательности)$$
+$$
+    a_1, a_2, ..., a_n,
+$$
+где $a_k \in \Omega$ - некоторое множество (определяющее тип последовательности)
 
 Будем использовать обозначения:
 
-$$A=[a_1,a_2,...,a_n]\in \Omega^n=\underbrace{\Omega\times...\times\Omega}_n$$
+$$
+    A=[a_1,a_2,...,a_n]\in \Omega^n=\underbrace{\Omega\times...\times\Omega}_n
+$$
 
-$$\Omega^0=\varnothing,\ [\ ] - пустая\ последовательность,\ [\ ]\in \overline{\Omega}$$
+$$
+    \Omega^0=\varnothing,\ [\ ] - пустая\ последовательность,\ [\ ]\in \overline{\Omega}
+$$
 
-$$\overline{\Omega}=\bigcup_{n=0}^{\infty}{\Omega^n}$$
+$$
+    \overline{\Omega}=\bigcup_{n=0}^{\infty}{\Omega^n}
+$$
 
-Тогда 
-$$F:\overline{\Omega}\rightarrow U,\ где\   U - некоторое\ множество$$
+Тогда
+$$
+    F:\overline{\Omega}\rightarrow U,\ где\   U - некоторое\ множество
+$$
 
 -- это есть некоторая функция, определенная на всех последовательностях конечной длины данного типа.
 
@@ -132,7 +143,7 @@ $$
 $$
     m_0=minimum([\ ])=\infty\\
     ....\\
-    m_{k-1}=min(m_{k-1},a_k)\\
+    m_{k}=min(m_{k-1},a_k)\\
     ....\\
     m_{n}=min(m_{n-1},a_n)
 $$
